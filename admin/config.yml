@@ -4,9 +4,9 @@ backend:
   # This line should *not* be indented
 publish_mode: editorial_workflow
 # This line should *not* be indented
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+media_folder: "images" # Media files will be stored in the repo under images/uploads
 # These lines should *not* be indented
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+media_folder: "images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 ---
 layout: blog
@@ -14,9 +14,6 @@ title: "Let's Party"
 date: 1999-12-31 11:59:59 -0800
 thumbnail: "/images/prince.jpg"
 rating: 5
----
-
-This is the post body, where I write about our last chance to party before the Y2K bug destroys us all.
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
